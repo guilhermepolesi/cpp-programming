@@ -4,13 +4,13 @@ using namespace std;
 
 int main () {
 
-    int num, turn_off = 1;
+    int num, turn_off = 0;
 
     do {
         
         cout << "Program started!" << endl;
 
-        while (turn_off) {
+        while (!turn_off) {
             cout << endl;
             cout << "Menu" << endl;
             cout << "1. Pizza" << endl;
@@ -31,9 +31,9 @@ int main () {
 
         }
         
-        turn_off = 0;
+        turn_off = 1;
         
-    } while (turn_off);
+    } while (!turn_off);
     
 
     return 0;
