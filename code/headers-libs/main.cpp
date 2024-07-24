@@ -1,7 +1,7 @@
 #define TEST 0
 
 #include <iostream>
-#include<string>
+#include <string>
 #include <memory>
 
 #include "headers/Product.hpp"
@@ -89,9 +89,6 @@ int main() {
 
     std::cout << "\nORDER SUMMARY:" << std::endl;
     std::cout << order->printOrder();
-
-
-
     
     std::cout << "END OF PROGRAM" << std::endl;
 
